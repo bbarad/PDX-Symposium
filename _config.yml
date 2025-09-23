@@ -1,0 +1,25 @@
+# GitHub Pages configuration for Portland CryoEM Symposium
+title: "2025 Portland CryoEM Symposium"
+description: "Official website for the 2025 Portland CryoEM Symposium at OHSU"
+baseurl: ""
+url: "https://bbarad.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# SEO settings
+author: "Portland CryoEM Symposium Organizing Committee"
+twitter:
+  card: summary_large_image
+
+# GitHub Pages specific settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .git/
+  - .gitignore
