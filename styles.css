@@ -243,6 +243,70 @@ header {
     font-style: italic;
 }
 
+/* Sponsor Logo */
+.sponsor-logo {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e0e0e0;
+}
+
+.sponsor-logo img {
+    max-width: 200px;
+    height: auto;
+    opacity: 0.9;
+}
+
+.sponsor-logo p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+/* Call for Speakers Banner */
+.call-for-speakers {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.call-for-speakers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.call-for-speakers p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.call-for-speakers .cta-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #667eea;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.call-for-speakers .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    background-color: #f0f0f0;
+}
+
 /* Footer */
 footer {
     background-color: #2c3e50;
