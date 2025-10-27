@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <!-- Background -->
+  <rect width="300" height="80" fill="#FFFFFF"/>
+  
+  <!-- Thermo Fisher Scientific text logo -->
+  <text x="150" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#003865" text-anchor="middle">
+    THERMO FISHER
+  </text>
+  <text x="150" y="65" font-family="Arial, sans-serif" font-size="14" fill="#003865" text-anchor="middle">
+    SCIENTIFIC
+  </text>
+</svg>
